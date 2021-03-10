@@ -1,0 +1,5 @@
+... اللي قبلها ع طول فمثلا لما اقول Descendants دي بتجيب ال First خلي بالك ان ميثود
+
+string str_date = n.Descendants("div").Where(x => x.GetAttributeValue("class", "").Equals("adxExtraInfo")).First().Descendants("div").Where(x => x.GetAttributeValue("class", "").Equals("adxExtraInfoPart")).Last().InnerText;
+
+هيجيبلي اخر واحد Last انما لو قولتله First وقولت اول واحد هيقابله لاني قايله adxExtraInfo اسمه class ويكون عندها  div تكون Descendants هنا في السطر اللي فوق هيجب اول
