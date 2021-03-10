@@ -1,2 +1,2 @@
-# Web-Scraping
-web scraping c# project
+# Web Scraping
+This a web scraping project in C# 
